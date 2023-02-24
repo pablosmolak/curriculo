@@ -1,10 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&family=Roboto&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+}
 .titulo{
   color: #ffffff;
 }
 
+body{
+  box-sizing: border-box;
+}
+.navegacao{
+  padding-left: 120px;
+  background-color: #718387;
+  height: 60px;
+}
+.navegacao__botoes{
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  padding: 22px;
+}
+
+.navegacao__botoes__links{
+  text-decoration: none;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+
+}
 .cabecalho{
   background-color: #98336c;
+  background: linear-gradient(90deg, rgba(72,98,136,1) 0%, rgba(152,51,108,0.7) 100%), url("images/fundo.png") no-repeat;
   text-align: center;
+  background-size: cover;
+  min-height: 700px;
 }
 
 .perfil{
@@ -16,4 +48,28 @@
 
 .redessociais img{
   padding: 10px;
+}
+
+.conteudo{
+  display: flex;
+  flex-direction: column;
+  padding: 0px 119px 0px 121px;
+
+}
+.conteudo__titulo{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.conteudo__texto{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.conteudo__imagens{
+  display: flex;
+  gap: 72px;
+  justify-content: center;
 }
